@@ -1,0 +1,108 @@
+body {
+  background-image: url("grasscopy.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: 'Arvo', serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.logo > img {
+  width: 25em;
+}
+
+.bodybody {
+  background-color: #fdfdee;
+  border: 3px #fdfdee;
+  border-radius: 50px;
+  margin: 5vh;
+}
+
+.centeredTXT {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.titles {
+  padding-top: 3vh;
+}
+
+.hvillagerImage > img{
+  width: 500px;
+}
+
+.map > img{
+  width: 500px;
+}
+
+.introIMG {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+
+.villagersGrid {
+  margin-top: 3vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contentOutfit {
+  width: 110px;
+}
+
+.contentImage {
+  width: 100px;
+}
+
+.contentItem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px #000;
+  border-style: solid; */
+  border-radius: 40%;
+  background-color: #f5ba7a;
+}
+
+.contentTXT {
+  font-size: 1.2rem;
+}
+
+.contentImage {
+  padding-top: 20px;
+}
+
+.contentOutfit {
+  padding-bottom: 20px;
+}
+
+.end {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+/* notes */
+
+/* white bg color #fdfdee */
+
+/* grass credit https://www.deviantart.com/thenewhylton/art/Animal-Crossing-Grass-Remake-Spring-HD-439882381 */
